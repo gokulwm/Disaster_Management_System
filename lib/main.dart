@@ -27,8 +27,8 @@ void main() async {
   // TODO: Replace with your Supabase project URL and anon key
   // Get these from: Supabase Dashboard → Settings → API
   await Supabase.initialize(
-    url: 'YOUR_SUPABASE_URL',       // e.g. https://xxxxx.supabase.co
-    anonKey: 'YOUR_SUPABASE_ANON_KEY', // e.g. eyJhbGciOiJI...
+    url: 'https://cuewgrwhqhceqxsqzmly.supabase.co',       // e.g. https://xxxxx.supabase.co
+    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN1ZXdncndocWhjZXF4c3F6bWx5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxOTI4NDAsImV4cCI6MjEwMzc2ODg0MH0.u9BaXD4O69KZrs30DYsgdkCnWW7Eb9MEFDY0qJ5QGeQ', // e.g. eyJhbGciOiJI...
   );
 
   runApp(
